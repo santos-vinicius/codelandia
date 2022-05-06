@@ -190,7 +190,42 @@ footer {
 
 /* Responsive */
 @media screen and (max-width: 960px) {
+  section {
+    margin: 0 41px;
+  }
 }
 
 @media (max-width: 480px) {
+  header {
+    height: 200px;
+  }
+
+  section {
+    margin: 0 24px;
+  }
+
+  .search {
+    margin-top: 40px;
+  }
+
+  .search__image {
+    width: 18px;
+    height: 18px;
+    padding: 18px;
+  }
+
+  .post__header > p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .post__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .post__description {
+    font-size: 14px;
+    line-height: 26px;
+  }
 }
