@@ -1,4 +1,4 @@
-## Challenge 01 - Blog
+## Challenge 02 - Jordan Shoes
 
 ![Banner](.github/banner.png)
 
@@ -8,7 +8,6 @@ This project was developed using the following technologies:
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## 🚀 Getting started
 
@@ -30,6 +29,6 @@ by [Iuri Silva - iuricode](https://github.com/iuricode)
 
 ## 🪐 Deploy on Vercel
 
-[Blog](https://desafio01-blog-pearl.vercel.app/)
+[Live preview](https://desafio02-jordanshoes-six.vercel.app/)
 
 > Made with ❤ and ☕ by [Vinicius Santos](https://github.com/santos-vinicius)
