@@ -55,6 +55,7 @@
 .banner--botao {
   background-color: var(--buttonColor);
   border: none;
+  border-radius: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   height: 24px;
@@ -68,4 +69,233 @@
 .banner--img {
   height: 360px;
   width: 500px;
+}
+
+/* --- Cards --- */
+
+.cards {
+  background-color: var(--white300);
+  padding: 70px 100px;
+}
+
+.card--lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  background: var(--white);
+  align-items: flex-end;
+  flex-direction: row;
+  margin: 80px 16px;
+  height: 423px;
+  width: 340px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card--conteudo {
+  background-color: var(--white);
+  padding: 10% 1em 10% 1em;
+}
+
+.card--conteudo > h3 {
+  color: var(--title);
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+
+.card--conteudo > p {
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 1em;
+}
+
+.fundo--vermelho {
+  background-color: #ff6363;
+}
+
+.fundo--azul {
+  background-color: #63ecff;
+}
+
+.fundo--rosa {
+  background-color: #f363ff;
+}
+
+.fundo--verde {
+  background-color: #63ff73;
+}
+
+.fundo--amarelo {
+  background-color: #ffdd63;
+}
+
+.fundo--roxo {
+  background-color: #6663ff;
+}
+
+/* --- Formulário --- */
+footer {
+  background-color: var(--bgSite);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 85px 485px;
+  width: 80%;
+}
+
+footer h3 {
+  font-family: 'Merriweather';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 5%;
+  color: var(--title);
+}
+
+.formulario {
+  display: inline-block;
+  text-align: center;
+  max-width: 470px;
+}
+
+.formulario input:focus {
+  border: 0px solid #000000;
+  outline: auto;
+}
+
+.formulario input {
+  background-color: var(--white);
+  border: none;
+  border-radius: 6px;
+  color: #6e7275;
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-style: 'Regular';
+  line-height: 22px;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  width: calc(100% - 1rem);
+}
+
+.formulario textarea {
+  background-color: var(--white);
+  border: none;
+  border-radius: 6px;
+  color: #6e7275;
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-style: 'Regular';
+  height: 165px;
+  line-height: 22px;
+  padding: 1rem 0.5rem;
+  margin-bottom: 2rem;
+  resize: none;
+  width: calc(100% - 1rem);
+}
+
+.formulario textarea:focus {
+  border: 0px solid #000000;
+  outline: auto;
+}
+
+.formulario--botao {
+  background-color: var(--buttonColor);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  box-sizing: content-box;
+  color: var(--white);
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 1rem 0.5rem;
+  width: calc(100% - 1rem);
+}
+
+/*--- Responsive ---*/
+
+@media (min-width: 200px) and (max-width: 750px) {
+  .banner {
+    align-items: center;
+    flex-direction: column;
+    padding: 15% 5%;
+  }
+
+  .banner--conteudo {
+    margin: 0;
+    margin-bottom: 2rem;
+    width: 90%;
+  }
+
+  .banner--img {
+    margin-top: 20%;
+    padding: 0;
+    width: 80%;
+  }
+
+  .banner--texto h2 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .banner--texto p {
+    font-size: 18px;
+  }
+
+  .banner--botao {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .cards {
+    padding: auto 2%;
+  }
+
+  .card {
+    width: 100%;
+    height: 400px;
+    margin: 1em;
+  }
+
+  .card--conteudo h3 {
+    font-size: 24px;
+  }
+
+  .card--conteudo p {
+    font-size: 18px;
+    padding-right: 0em;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+
+  .formulario h3 {
+    font-size: 32px;
+  }
 }
