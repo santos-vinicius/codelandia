@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:ital,wght@1,400;1,700&display=swap');
+
+:root {
+  --bgSite: #d7d4ff;
+  --buttonColor: #6c63ff;
+
+  --white: #ffffff;
+  --white300: #f9f9f9;
+
+  --title: #2b2b2b;
+  --text: #555555;
+}
+
+/*
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Merriweather', serif;
+
+*/
+
+/* --- Banner --- */
+
+.banner {
+  align-items: center;
+  background-color: var(--bgSite);
+  display: flex;
+  justify-content: space-between;
+  padding: 77px 104px 119px 100px;
+}
+
+.banner--conteudo {
+  display: inline-block;
+  width: 24.3125rem;
+}
+
+.banner--titulo {
+  color: var(--title);
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47px;
+  margin-bottom: 1rem;
+}
+
+.banner--texto {
+  color: var(--text);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  margin-bottom: 2.813rem;
+}
+
+.banner--botao {
+  background-color: var(--buttonColor);
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  height: 24px;
+  font-size: 20px;
+  color: var(--white);
+  width: 54px;
+  padding: 14px 50px;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+}
+
+.banner--img {
+  height: 360px;
+  width: 500px;
+}
