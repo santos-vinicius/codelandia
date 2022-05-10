@@ -29,7 +29,7 @@ by [Iuri Silva - iuricode](https://github.com/iuricode)
 
 ## 🪐 Deploy on Vercel
 
-[Live preview](#)
+[Live preview](https://desafio03-onepage-eight.vercel.app/)
 
 ---
 
