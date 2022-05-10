@@ -1,4 +1,4 @@
-## Challenge 02 - Jordan Shoes
+## Challenge 03 - One Page
 
 ![Banner](.github/banner.png)
 
@@ -16,7 +16,7 @@ Clone this project and acesss the folder.
 ```bash
 $ git clone https://github.com/santos-vinicius/codelandia.git
 $ cd desafios
-$ cd desafio_02
+$ cd desafio_03
 ```
 
 ## 🎨 Layout
@@ -29,6 +29,6 @@ by [Iuri Silva - iuricode](https://github.com/iuricode)
 
 ## 🪐 Deploy on Vercel
 
-[Live preview](https://desafio02-jordanshoes-six.vercel.app/)
+[Live preview]()
 
 > Made with ❤ and ☕ by [Vinicius Santos](https://github.com/santos-vinicius)
