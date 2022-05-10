@@ -29,6 +29,6 @@ by [Iuri Silva - iuricode](https://github.com/iuricode)
 
 ## 🪐 Deploy on Vercel
 
-[Live preview]()
+[Live preview](#)
 
 > Made with ❤ and ☕ by [Vinicius Santos](https://github.com/santos-vinicius)
