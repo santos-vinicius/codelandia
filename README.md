@@ -11,7 +11,7 @@ Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na c
 - [x] Desafio 1 - Blog
 - [x] Desafio 2 - JordanShoes
 - [x] Desafio 3 - One Page
-- [ ] Desafio 4 - Login
+- [x] Desafio 4 - Login
 - [ ] Desafio 5 - Studio Ghibli
 - [ ] Desafio 6 - Loki
 - [ ] Desafio 7 - Valorant
