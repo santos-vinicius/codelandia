@@ -3,135 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=Ci, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/reset.css" />
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.min.css" />
     <title>Codelândia</title>
   </head>
   <body>
-    <header>
-      <a href="/" class="logo"> codelân <span>{ )</span> ia </a>
-
-      <div>
-        <a
-          href="https://github.com/santos-vinicius"
-          class="header-link"
-          target="_blank"
-          >meu github</a
-        >
-        <a
-          href="https://discord.com/invite/QevDJqCzaY"
-          class="header-link-discord"
-          target="_blank"
-          >entrar na comunidade</a
-        >
-      </div>
+    <header class="header container">
+      <a href="/" class="header-logo">
+        codelân&thinsp;<span>{ )</span>&thinsp;ia</a
+      >
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <a
+              href="https://github.com/santos-vinicius/codelandia/"
+              target="_blank"
+              class="btn btn-github"
+              >meu github</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://discord.gg/wNCWTVuxyz"
+              target="_blank"
+              class="btn btn-discord"
+            >
+              entrar na comunidade
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <section class="banner-container">
-        <h3>comunidade dev</h3>
-        <h1 class="banner-title">Projetos da comunidade Codelândia</h1>
-        <p class="banner-description">
-          Resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia no Discord.
+
+    <section class="intro container">
+      <span>comunidade dev</span>
+      <h1>Projetos da <br />comunidade Codelândia</h1>
+      <p>
+        Apresentação dos desafios propostos pela comunidade do professor Iuri
+        Code.
+      </p>
+    </section>
+
+    <article class="projects container">
+      <div class="project">
+        <div class="project-image">
+          <a href="./desafios/desafio_01/index.html" target="_blank"></a>
+          <img src="assets/images/desafio_01.png" alt="Blog" />
+        </div>
+        <h2>Blog</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
+          ligula, accumsan nec cursus in, eleifend sit amet dui.
         </p>
-      </section>
-
-      <div class="projects-container">
-        <div class="card">
-          <a href="./desafios/desafio_01/index.html" target="_blank">
-            <img src="assets/images/desafio_01.png" alt="" class="card-img" />
-          </a>
-          <div class="card-content">
-            <h3 class="card-title">Blog</h3>
-            <pc class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div>
-          <button class="demo-btn"> 
-            <a href="./desafios/desafio_02/index.html" target="_blank">
-              Demo
-            </a>
-          </button>
-          <button class="github-btn"> 
-            <a href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_02" target="_blank">
-              Github
-            </a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <a href="./desafios/desafio_02/index.html" target="_blank">
-            <img src="assets/images/desafio_02.png" alt="" class="card-img" />
-          </a>
-          <div class="card-content">
-            <h3 class="card-title">Jordan Shoes</h3>
-            <pc class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div>
-          <button class="demo-btn">  
-            <a href="./desafios/desafio_02/index.html" target="_blank">
-              Demo
-            </a>
-          </button>
-          <button class="github-btn"> 
-            <a href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_02" target="_blank">
-              Github
-            </a>
-          </div>
-        </div>
-
-        <div class="card">
-          <a href="./desafios/desafio_03/index.html" target="_blank">
-            <img src="assets/images/desafio_03.png" alt="" class="card-img" />
-          </a>
-          <div class="card-content">
-            <h3 class="card-title">One Page</h3>
-            <pc class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div>
-            <button class="demo-btn">
-              <a href="./desafios/desafio_03/index.html" target="_blank">
-                Demo
-              </a>
-            </button>
-            <button class="github-btn"> 
-              <a href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_03" target="_blank">
-                Github
-              </a>
-          </button>
-          </div>
-        </div>
-
-        <div class="card">
-          <a href="./desafios/desafio_04/index.html" target="_blank">
-            <img src="assets/images/desafio_04.png" alt="" class="card-img" />
-          </a>
-          <div class="card-content">
-            <h3 class="card-title">Login Page</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div>
-            <button class="demo-btn">
-              <a href="./desafios/desafio_04/index.html" target="_blank">
-                Demo
-              </a>
-            </button>
-            <button class="github-btn"> 
-              <a href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_04" target="_blank">
-                Github
-              </a>
-          </button>
-          </div>
+        <div class="project-links">
+          <a
+            href="./desafios/desafio_01/index.html"
+            class="btn btn-demo"
+            target="_blank"
+            >demo</a
+          >
+          <a
+            href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_01"
+            class="btn btn-github"
+            target="_blank"
+            >github</a
+          >
         </div>
       </div>
-    </main>
+      <div class="project">
+        <div class="project-image">
+          <a href="./desafios/desafio_02/index.html" target="_blank"></a>
+          <img src="assets/images/desafio_02.png" alt="Shordan Shoes" />
+        </div>
+        <h2>Jordan Shoes</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
+          ligula, accumsan nec cursus in, eleifend sit amet dui.
+        </p>
+        <div class="project-links">
+          <a
+            href="./desafios/desafio_02/index.html"
+            target="_blank"
+            class="btn btn-demo"
+            >demo</a
+          >
+          <a
+            href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_02"
+            target="_blank"
+            class="btn btn-github"
+            >github</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <a href="./desafios/desafio_03/index.html" target="_blank"></a>
+          <img src="assets/images/desafio_03.png" alt="One Page" />
+        </div>
+        <h2>One Page</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
+          ligula, accumsan nec cursus in, eleifend sit amet dui.
+        </p>
+        <div class="project-links">
+          <a
+            href="./desafios/desafio_03/index.html"
+            target="_blank"
+            class="btn btn-demo"
+            >demo</a
+          >
+          <a
+            href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_03"
+            target="_blank"
+            class="btn btn-github"
+            >github</a
+          >
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <a href="./desafios/desafio_04/index.html" target="_blank"></a>
+          <img src="assets/images/desafio_04.png" alt="Login" />
+        </div>
+        <h2>Login</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis
+          ligula, accumsan nec cursus in, eleifend sit amet dui.
+        </p>
+        <div class="project-links">
+          <a
+            href="./desafios/desafio_04/index.html"
+            target="_blank"
+            class="btn btn-demo"
+            >demo</a
+          >
+          <a
+            href="https://github.com/santos-vinicius/codelandia/tree/main/desafios/desafio_04"
+            target="_blank"
+            class="btn btn-github"
+            >github</a
+          >
+        </div>
+      </div>
+    </article>
 
-    <footer>
+    <footer class="footer container">
       <a href="/" class="footer-logo">{ )</a>
-      <div class="footer-content">
-        <p>© 2022 - Vinicius Santos &nbsp</p>
-        <a href="https://github.com/santos-vinicius/codelandia" target="_blank">- { source }</a>
+      <div class="footer-credit">
+        <span>&#169; 2022 - Vinicius Santos</span>
+        <span
+          ><a
+            href="https://github.com/santos-vinicius/codelandia"
+            target="_blank"
+            >{ source }</a
+          ></span
+        >
       </div>
     </footer>
-
   </body>
 </html>
-
