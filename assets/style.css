@@ -283,7 +283,7 @@ footer {
 }
 
 /* Smartphone */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 480px) {
   body {
     padding: 24px 30px;
   }
@@ -327,11 +327,11 @@ footer {
   }
 
   .card {
-    width: 312px;
+    width: 420px;
   }
 
   .card-img {
-    width: 255px;
+    width: 380px;
     height: 222px;
   }
 
