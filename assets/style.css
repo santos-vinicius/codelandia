@@ -223,6 +223,7 @@ body {
   .project h2 {
     font-size: 1.8rem;
     font-weight: 500;
+    margin-top: 16px;
     margin-bottom: 16px;
   }
   .project p {

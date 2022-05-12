@@ -192,10 +192,8 @@ body {
   margin-bottom: 21px;
 }
 .projeto-imagem {
-  max-width: 100%;
+  max-width: 90%;
   height: 222px;
-  background: var(--dark) url('../img/projeto-imagem.svg') no-repeat center
-    center;
   margin-bottom: 24px;
 }
 .projeto h2 {
@@ -203,6 +201,7 @@ body {
   line-height: 1.302;
   font-weight: 500;
   color: var(--light);
+  margin-top: 12px;
   margin-bottom: 22px;
 }
 .projeto p {
@@ -244,6 +243,7 @@ body {
   .projeto h2 {
     font-size: 1.8rem;
     font-weight: 500;
+    margin-top: 16px;
     margin-bottom: 16px;
   }
   .projeto p {
