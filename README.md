@@ -6,7 +6,7 @@
 
 Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia no Discord.
 
-[ > Veja aqui os desafios já realizados!](#)
+[ > Veja aqui os desafios já realizados](https://santos-vinicius.github.io/codelandia/)
 
 > O **desafio 22** propõe criar uma galeria de apresentação com links para os desafios já realizados. Ele será atualizado a cada 4 desafios completos.
 
