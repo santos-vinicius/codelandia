@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600;700&family=Josefin+Sans:wght@700&display=swap');
+
+/*
+    font-family: 'DM Sans', sans-serif;
+
+    font-family: 'IBM Plex Mono', monospace;
+
+    font-family: 'Josefin Sans', sans-serif;
+*/
+
+/* Colors */
+:root {
+  --purple: #873eff;
+  --green: #04d361;
+  --dark: #0e091b;
+  --dark200: #171228;
+  --gray: #aeaeae;
+  --light: #f9f9f9;
+}
+
+/* Reset HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 40px 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  margin-bottom: 80px;
+}
+
+.logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.logo span {
+  color: var(--purple);
+}
+
+.header-link,
+.header-link-discord {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.header-link {
+  padding-right: 62px;
+}
+
+.header-link:hover {
+  color: var(--purple);
+}
+
+.header-link-discord {
+  border: 1px solid var(--purple);
+  border-radius: 6px;
+  padding: 15px 25px;
+}
+
+.header-link-discord:hover {
+  background: var(--purple);
+  color: var(--light);
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 810px;
+  width: 70%;
+}
+
+.banner-container > h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: var(--green);
+  margin-bottom: 12px;
+}
+
+.banner-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--light);
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: var(--gray);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 75px;
+}
+
+.projects-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  max-width: 1040px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 506px;
+  width: 100%;
+  padding: 23px 20px;
+  background: var(--dark200);
+  border: 1px solid var(--purple);
+  border-radius: 8px;
+}
+
+.card-img {
+  width: 470px;
+  height: 250px;
+  background: #0e091b;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+}
+
+.card-description {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.demo-btn,
+.github-btn {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 42px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.demo-btn,
+.demo-btn > a {
+  color: var(--dark);
+  background-color: var(--green);
+}
+
+.github-btn,
+.github-btn > a {
+  background-color: var(--dark200);
+  color: var(--light);
+}
+
+.github-btn {
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'IBM Plex Mono';
+  margin: 40px 0 0;
+}
+
+.footer-logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: var(--purple);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--gray);
+}
+
+.footer-content > a {
+  color: var(--gray);
+}
+
+.footer-content > a:hover {
+  color: var(--purple);
+}
+
+/* --- Responsive --- */
+
+/* Reposividade */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 24px 30px;
+  }
+
+  .logo {
+    font-size: 27px;
+  }
+
+  .header-link-discord {
+    padding: 10px 10px;
+  }
+
+  .banner-container {
+    width: 100%;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card {
+    width: 470px;
+  }
+
+  .card-img {
+    width: 430px;
+  }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+  body {
+    padding: 24px 30px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-bottom: 48px;
+  }
+
+  .header-link {
+    display: none;
+  }
+
+  .banner-container {
+    width: 312px;
+  }
+
+  .banner-container > h3 {
+    font-size: 14px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-description {
+    font-size: 16px;
+  }
+
+  .projects-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    width: 312px;
+  }
+
+  .card {
+    width: 312px;
+  }
+
+  .card-img {
+    width: 255px;
+    height: 222px;
+  }
+
+  .demo-btn,
+  .github-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .footer-content {
+    font-size: 12px;
+  }
+}

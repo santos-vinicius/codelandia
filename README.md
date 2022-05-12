@@ -6,6 +6,10 @@
 
 Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na comunidade Codelândia no Discord.
 
+[ > Veja aqui os desafios já realizados!](#)
+
+> O **desafio 22** propõe criar uma galeria de apresentação com links para os desafios já realizados. Ele será atualizado a cada 4 desafios completos.
+
 ### Lista de desafios:
 
 - [x] Desafio 1 - Blog
@@ -29,7 +33,7 @@ Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na c
 - [ ] Desafio 19 - Rachi
 - [ ] Desafio 20 - Portfólio 2
 - [ ] Desafio 21 - XBOX
-- [ ] Desafio 22 - Projetos da Comunidade
+- [x] Desafio 22 - Projetos da Comunidade
 - [ ] Desafio 23 - Music Legends
 - [ ] Desafio 24 - Arcane 2
 - [ ] Desafio 25 - HomeYou
