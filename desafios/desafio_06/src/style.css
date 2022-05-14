@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+:root {
+  --yellow: #ffa800;
+  --blue: #0072d2;
+  --white: #ffffff;
+  --dark: #131318;
+}
+
+body {
+  font-family: 'B612', sans-serif;
+}

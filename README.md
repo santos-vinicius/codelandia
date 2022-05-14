@@ -16,8 +16,8 @@ Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na c
 - [x] Desafio 2 - JordanShoes
 - [x] Desafio 3 - One Page
 - [x] Desafio 4 - Login
-- [ ] Desafio 5 - Studio Ghibli (WIP)
-- [ ] Desafio 6 - Loki
+- [x] Desafio 5 - Studio Ghibli 
+- [ ] Desafio 6 - Loki (WIP)
 - [ ] Desafio 7 - Valorant
 - [ ] Desafio 8 - CodeMoji
 - [ ] Desafio 9 - Portfólio
