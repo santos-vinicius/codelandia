@@ -18,7 +18,7 @@ Repositório com os resultados dos desafios propostos pelo Prof. Iuri Silva na c
 - [x] Desafio 4 - Login
 - [x] Desafio 5 - Studio Ghibli
 - [x] Desafio 6 - Loki
-- [ ] Desafio 7 - Valorant
+- [x] Desafio 7 - Valorant
 - [ ] Desafio 8 - CodeMoji
 - [ ] Desafio 9 - Portfólio
 - [ ] Desafio 10 - Naped
