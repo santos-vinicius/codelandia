@@ -42,7 +42,7 @@ header {
   justify-content: space-between;
   width: 100%;
   max-width: 1285px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 main {
@@ -88,8 +88,17 @@ main {
   text-align: center;
 }
 
+.share_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .share_links ul {
   display: flex;
+  position: absolute;
+  bottom: 0;
+
   flex-direction: row;
   list-style: none;
   gap: 43px;
@@ -98,4 +107,49 @@ main {
 .secondary_container img {
   height: 100%;
   width: 503px;
+}
+
+/* ---- Responsive  ---- */
+
+@media screen and (max-width: 767px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    margin: 32px 24px;
+  }
+
+  header h2 {
+    display: none;
+  }
+
+  .main_title {
+    display: none;
+  }
+
+  .secondary_container img {
+    display: none;
+  }
+
+  .agents_group {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .agents_group img {
+    width: 129px;
+    height: 129px;
+  }
+
+  .agent_name {
+    margin-top: 4px;
+  }
+
+  .share_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
